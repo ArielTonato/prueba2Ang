@@ -6,3 +6,15 @@
 a{
   text-decoration: none;
 }
+
+.error{
+  padding: 10px;
+  background-color: rgb(250, 130, 130);
+  color:rgb(236, 17, 17) ;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 5px 0 10px 0;
+  border: 1px solid rgb(236, 17, 17);
+}
