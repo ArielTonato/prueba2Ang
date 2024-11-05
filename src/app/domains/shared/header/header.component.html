@@ -1,0 +1,17 @@
+<header class="bg-blue-50 border-round-md p-2 m-2">
+    <section class="flex align-items-center	justify-content-between px-5">
+        <div>
+            <h2 class="text-blue-500">TodoAPP</h2>
+        </div>
+        <div class="card flex justify-content-end">
+            <p-button (onClick)="op.toggle($event)" [label]="email || 'sadfasdf'" [text]="true" icon="pi pi-user"/>
+            <p-overlayPanel #op>
+                <div class="flex flex-column align-items-center	 gap-3 w-15rem">
+                    <div>
+                        <p-button (onClick)="logout()" label="Cerrar Sesion" icon="pi pi-sign-out" />
+                    </div>
+                </div>
+            </p-overlayPanel>
+        </div>
+    </section>
+</header>
